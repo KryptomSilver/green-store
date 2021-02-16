@@ -1,6 +1,6 @@
 const ProductsCtrl = {}
 
-const Product = require('../models/Product');
+const Product = require('../models/products');
 
 ProductsCtrl.getProduct = async (req, res) => {
     const product = await Product.findById(req.params.id)
