@@ -1,2 +1,4 @@
 # green-store
-Sistema para tienda de verduras con la Tecnología MERN
+Servidor Backend desarrollado con las tecnologias:
+- Express.js
+- Node.js
