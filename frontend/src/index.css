@@ -1,0 +1,31 @@
+.login {
+  margin-top: 6rem;
+  width: 23rem;
+  background: #030b84;
+  border-radius: .3rem;
+  -webkit-box-shadow: 0px 0px 16px 6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 16px 6px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 16px 6px rgba(0, 0, 0, 0.75);
+}
+.contenedor {
+  height: 100%;
+  width: 100%;
+  padding: 1rem 18rem 0rem 18rem;
+}
+.items {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+div.card{
+    padding:1.5rem 2rem;
+}
+.imagen-card {
+  height: 12.875rem;
+  width: 12.875rem;
+}
+#statistics {
+  height: 11.875rem;
+  width: 13.875rem;
+  padding: 2rem;
+}
