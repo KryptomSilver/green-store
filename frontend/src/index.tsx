@@ -14,10 +14,13 @@ import 'bootswatch/dist/slate/bootstrap.min.css';
 import './index.css';
 import Dashboard from './components/Dashboard/Dashboard';
 import Login from './components/Login/Login';
+import Navbar from './components/Navbar/Navbar';
+
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
+    <Navbar/>
     <Switch>
       <Route path="/products" component={ProductsList} />
       <Route path="/product-add" component={ProductForm} />
